@@ -1,0 +1,167 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rubik's Cube World</title>
+    <link rel="stylesheet" href="Index.css">
+</head>
+<body>
+
+    <header>
+	
+	<div class="words">
+        <h1>Rubik's Cube World</h1>
+        <p>Challenge your mind, <strong>one twist at a time!</strong></p>
+	</div>
+		
+    <nav>
+        <a href="#about">About</a>
+        <a href="#guide">Cube Guide</a>
+        <a href="#media">Media</a>
+        <a href="#contact">Contact</a>
+    </nav>
+	
+    </header>
+
+
+        <section id="about">
+            <h2>About the Rubik's Cube</h2>
+
+            <p>
+                The <strong>Rubik's Cube</strong> is a popular 3D puzzle
+                invented by <em>Ernő Rubik</em> in 1974.
+                It challenges players to arrange each side into a
+                single color.
+            </p>
+
+            <p>
+                Solving a cube can improve <mark>problem-solving skills</mark>,
+                patience, and logical thinking.
+            </p>
+
+            <p>
+                A standard cube has 6 faces and 54 colored stickers.
+                It is a fun activity for people of different ages.
+            </p>
+
+            <p>
+                Learn more from
+                <a href="https://www.worldcubeassociation.org/"
+                   target="_blank" rel="noopener noreferrer">
+                    the World Cube Association
+                </a>.
+            </p>
+
+            <small>Keep practicing and never give up!</small>
+        </section>
+
+<hr>
+        <section id="guide">
+            <h2>Basic Cube Guide</h2>
+
+            <p>Here are the six colors commonly found on a standard cube:</p>
+
+            <ul>
+                <li><strong>White</strong> — opposite yellow</li>
+                <li><strong>Yellow</strong> — opposite white</li>
+                <li><strong>Red</strong> — opposite orange</li>
+                <li><strong>Orange</strong> — opposite red</li>
+                <li><strong>Blue</strong> — opposite green</li>
+                <li><strong>Green</strong> — opposite blue</li>
+            </ul>
+
+            <h3>Beginner Solving Steps</h3>
+            <ol>
+                <li>Make the white cross.</li>
+                <li>Solve the white corners.</li>
+                <li>Complete the middle layer.</li>
+                <li>Make the yellow cross.</li>
+                <li>Finish the yellow face and last layer.</li>
+            </ol>
+
+            <p class="tip">
+                <span>Tip:</span> Practice a little every day to improve your
+                <em>solving speed</em>.
+            </p>
+        </section>
+
+<hr>
+        <section id="media">
+            <h2>Best Rubik's Cubers</h2>
+
+            <figure>
+                <img
+                    src="images/felix.jpg"
+                    alt="Colorful Rubik's Cube puzzle">             
+				<img
+                    src="images/felix2.jpg"
+                    alt="Colorful Rubik's Cube puzzle">              
+				<img
+                    src="images/felix3.jpg"
+                    alt="Colorful Rubik's Cube puzzle">
+
+            </figure>
+<br>
+<br>
+<br>
+
+            <h3>Watch a Cube Tutorial</h3>
+
+            <p>
+                Watch a beginner tutorial to learn how the puzzle works.
+            </p>
+
+            <video
+                controls
+                playsinline
+                preload="metadata"
+                aria-label="Rubik's Cube beginner tutorial">
+                <source src="Video/Rubik's%20video.mp4" type="video/mp4">
+                Your browser does not support video playback.
+            </video>
+        </section>
+
+
+        <section id="contact">
+            <h2>Join the Cube Community</h2>
+
+            <p>Tell us about your Rubik's Cube experience!</p>
+
+            <form action="#" method="get">
+
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name"
+                       placeholder="Enter your name" required>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email"
+                       placeholder="Enter your email" required>
+
+                <label for="level">Your Skill Level:</label>
+                <select id="level" name="level">
+                    <option value="beginner">Beginner</option>
+                    <option value="intermediate">Intermediate</option>
+                    <option value="advanced">Advanced</option>
+                </select>
+
+                <label for="time">Your Best Solving Time:</label>
+                <input type="text" id="time" name="time"
+                       placeholder="Example: 45 seconds">
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="4"
+                          placeholder="Share your cube experience"></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+
+    <footer>
+        <p>&copy; 2026 Rubik's Cube World. Keep on twisting!</p>
+    </footer>
+
+</body>
+</html>
